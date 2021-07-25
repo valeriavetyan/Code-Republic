@@ -11,7 +11,8 @@ console.log(fibonacci(10));
 
 // 2. "CAHCE" your recursive function that you have been created by caching the numbers of Fibonacci sequence just for efficiency and for speed.
 
-function fibonacciCache(k, cache = []) {
+let cache = [];
+function fibonacciCache(k) {
   if (k <= 1) {
     return k;
   } else if (cache[k]) {
