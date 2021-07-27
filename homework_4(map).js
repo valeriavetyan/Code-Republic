@@ -13,6 +13,7 @@ example = example.qartez(function (num) {
   return num * 10
 });
 console.log(example); // [ 20, 30, 40, 50 ]
+// P.s. Kisat e  
 
 
 // Task 2.1(Tuck in Array)
